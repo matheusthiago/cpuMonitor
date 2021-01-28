@@ -87,9 +87,9 @@ def get_cpu():
     name=socket.gethostname()
 
     cpu ={
-        'vendor_id':CPUinfo['proc0']['vendor_id'],
+#        'vendor_id':CPUinfo['proc0']['vendor_id'],
         'model name':CPUinfo['proc0']['model name'],
-        'cpu MHz':CPUinfo['proc0']['cpu MHz'],
+ #       'cpu MHz':CPUinfo['proc0']['cpu MHz'],
         'count': count,
         'percent':percent,
 #        'avgLoad':avgLoad,
